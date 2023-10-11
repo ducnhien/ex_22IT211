@@ -1,13 +1,7 @@
 <?php include 'view/header.php'; ?>
-<main>
-    <h1>Menu</h1>
-    <ul>
-        <li>
-            <a href="product_manager">Product Manager</a>
-        </li>
-        <li>
-            <a href="product_catalog">Product Catalog</a>
-        </li>
-    </ul>
-</main>
+<div id="main">
+    <h1 class="top">Menu</h1>
+    <p><a href="product_manager">Product Manager</a></p>
+    <p><a href="product_catalog">Product Catalog</a></p>
+</div>
 <?php include 'view/footer.php'; ?>
